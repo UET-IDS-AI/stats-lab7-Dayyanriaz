@@ -48,5 +48,5 @@ def uniform_analysis(a, n_samples=10000):
     )
 
 
-if _name_ == "_main_":
-    print("Implement uniform_analysis(a, n_samples=10000)")
+if __name__ == "__main__":
+    print(uniform_analysis(6))
